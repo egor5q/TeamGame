@@ -24,12 +24,8 @@ public class CameraFollow : MonoBehaviour
     private void LateUpdate()
     {
         transform.rotation = target.rotation*initialRotation;
-        // Вычисляем позицию, к которой должна двигаться камера
         Vector3 desiredPosition = target.position + target.rotation*(offset+addoffset);
-
-        // Плавно перемещаем камеру к желаемой позиции
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        //smoothedPosition += addvector;
         transform.position = smoothedPosition;
         
     }
