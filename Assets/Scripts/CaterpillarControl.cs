@@ -18,11 +18,18 @@ public class CaterpillarControl : MonoBehaviour
     }
 
     // Update is called once per frame
+
+    [PunRPC]
+        void setRotation(Quaternion targetrotation){
+            joint.targetRotation = targetrotation;
+        }
+        
     void Update()
     {
         if (!photonView.IsMine){
             return;
         }
+
         horizontal = Input.GetAxis("Horizontal") * turningSpeed*Time.deltaTime;
         //transform.Rotate(0, horizontal, 0);
         vertical = Input.GetAxis("Vertical")*movementSpeed*Time.deltaTime;
@@ -39,7 +46,9 @@ public class CaterpillarControl : MonoBehaviour
             }
             Quaternion quaternionRotation = Quaternion.AngleAxis(angle*turningSpeed*Time.deltaTime, axis);
             joint.targetRotation *= quaternionRotation;
+            photonView.RPC("setRotation", RpcTarget.Others, joint.targetRotation);
             
         }
+    
     }
 }

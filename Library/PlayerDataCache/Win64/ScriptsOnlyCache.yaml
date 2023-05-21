@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - CaterpillarControl
     - CharacterController
     - FootFriction
+    - GameManager
     - IgnoreCollision
     - LobbyManager
     - Photon.Compression.Internal.TypeCatalogue
@@ -81,8 +82,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -165,6 +168,81 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve: []
   sceneClasses:
+    Assets/Scenes/Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2404}
+    - Class: 114
+      Script: {instanceID: 3270}
+    - Class: 114
+      Script: {instanceID: 3292}
+    - Class: 114
+      Script: {instanceID: 4232}
+    - Class: 114
+      Script: {instanceID: 5590}
+    - Class: 114
+      Script: {instanceID: 6810}
+    - Class: 114
+      Script: {instanceID: 7322}
+    - Class: 114
+      Script: {instanceID: 7808}
+    - Class: 114
+      Script: {instanceID: 8048}
+    - Class: 114
+      Script: {instanceID: 8190}
+    - Class: 114
+      Script: {instanceID: 8456}
+    - Class: 114
+      Script: {instanceID: 8666}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -2255,7 +2333,7 @@ ScriptsOnlyBuild:
     className: AutoOwnerComponentEnable
   - hash:
       serializedVersion: 2
-      Hash: c331e25cde6564694dd7db2dc1555590
+      Hash: 7cfdb82565420a5fc03a0f20e9a42702
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraFollowInGame
@@ -2622,4 +2700,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
-  playerPath: C:/Users/Egor/Desktop/Unity builds/Veganwars.exe
+  - Assets/Scenes/Game.unity
+  playerPath: "C:/Users/Egor/Desktop/\u042E\u043D\u0438\u0442\u0438 \u0442\u0435\u0441\u0442\u044B/Veganwars.exe"

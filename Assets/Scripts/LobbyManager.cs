@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.SceneManagement;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
@@ -25,28 +26,31 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public void CreateRoom(){
         PhotonNetwork.CreateRoom(null, new Photon.Realtime.RoomOptions {MaxPlayers = 2});
+        Log("Created room");
     }
 
     public void JoinRoom(){
         PhotonNetwork.JoinRandomRoom();
+        //PhotonNetwork.JoinRandomRoom();
     }
+
+    public void JoinOrCreate(){
+        PhotonNetwork.JoinRandomOrCreateRoom();
+        Log("Joined or created");
+        //PhotonNetwork.JoinRandomRoom();
+    }
+
 
     public override void OnJoinedRoom()
     {
         Log("Joined the room");
+        //SceneManager.LoadScene("Game", LoadSceneMode.Additive);
         PhotonNetwork.LoadLevel("Game");
     }
     public override void OnConnectedToMaster()
     {
-        Log("Connected to master");
-        if (roomCreated){
-            JoinRoom();
-        }
-        else{
-            CreateRoom();
-            roomCreated = true;
-            //JoinRoom();
-        }
+        JoinOrCreate();
+
  
     }
 

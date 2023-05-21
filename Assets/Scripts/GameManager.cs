@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     public GameObject PlayerPrefab;
     public GameObject cameraPrefab;
-    public Vector3 playerpos = new Vector3(330f, 1f, 5.8f);
+    public Vector3 playerpos = new Vector3(0f, 0f, 0f);
 
     private CameraFollowInGame script;
 
@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         if (Input.GetButtonDown("q")){
             Debug.Log(("left"));
             Leave();
+            Application.Quit();
         }
     }
 
