@@ -86,8 +86,8 @@ public class CameraFollowInGame : MonoBehaviour
         // Вычисляем начальное смещение между камерой и целевым объектом
         offset = transform.position - target.position;
         initialRotation = transform.rotation;
-        addoffset = new Vector3(-2.71f, 3.04f, -0.66f);
-        addrotationX = -7.71f;
+        addoffset = new Vector3(-3.19f, 3.57f, -0.66f);
+        addrotationX = -9.04f;
 
     }
 
