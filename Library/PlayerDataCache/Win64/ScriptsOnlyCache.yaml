@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - CameraFollowInGame
     - CaterpillarAnimController
     - CaterpillarControl
+    - CaterpillarControl_fullphysics
     - CharacterController
     - FootFriction
     - GameManager
@@ -494,6 +495,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8936}
     - Class: 114
       Script: {instanceID: 9244}
+    - Class: 114
+      Script: {instanceID: 80868}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2171,7 +2174,7 @@ ScriptsOnlyBuild:
     className: SendRateOnSerializeField
   - hash:
       serializedVersion: 2
-      Hash: 99dcf6b1452f239a866f3fb2e68658d7
+      Hash: af0cbb9d46f06be1a001f33bf581273b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FootFriction
@@ -2597,10 +2600,10 @@ ScriptsOnlyBuild:
     className: AutoDestroyUnspawned
   - hash:
       serializedVersion: 2
-      Hash: 27a227cc83c54794c8b6e4ce9b650c69
+      Hash: 650640de235fb7f485fc0ec3e44d374b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CaterpillarControl
+    className: CaterpillarControl_fullphysics
   - hash:
       serializedVersion: 2
       Hash: e1e615eaf73e560828f53edc8952e615
@@ -2697,8 +2700,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 27a227cc83c54794c8b6e4ce9b650c69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CaterpillarControl
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: "C:/Users/Egor/Desktop/\u042E\u043D\u0438\u0442\u0438 \u0442\u0435\u0441\u0442\u044B/Veganwars.exe"
+  playerPath: "C:/Users/Egor/Desktop/\u042E\u043D\u0438\u0442\u0438 \u0442\u0435\u0441\u0442\u044B/Caterpillar
+    game/Versions/v0.11/Veganwars.exe"

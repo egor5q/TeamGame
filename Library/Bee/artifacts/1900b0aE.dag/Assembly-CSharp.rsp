@@ -621,6 +621,7 @@
 "Assets/Scripts/CameraFollowInGame.cs"
 "Assets/Scripts/CaterpillarAnimController.cs"
 "Assets/Scripts/CaterpillarControl.cs"
+"Assets/Scripts/CaterpillarControl_fullphysics.cs"
 "Assets/Scripts/CharacterController.cs"
 "Assets/Scripts/FootFriction.cs"
 "Assets/Scripts/GameManager.cs"

@@ -276,7 +276,7 @@
      <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\WorldBounds\WorldBoundsSettings.cs" />
      <Compile Include="Assets\Photon\Simple\Components\Assistants\PickupAssists.cs" />
      <Compile Include="Assets\Photon\Simple\Utilities\Networking\AutoDestroyUnspawned.cs" />
-     <Compile Include="Assets\Scripts\CaterpillarControl.cs" />
+     <Compile Include="Assets\Scripts\CaterpillarControl_fullphysics.cs" />
      <Compile Include="Assets\Scripts\LobbyManager.cs" />
      <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncInventory\InventoryT.cs" />
      <Compile Include="Assets\Photon\Simple\Core\GenericHitscan\HitscanComponent.cs" />
@@ -290,6 +290,7 @@
      <Compile Include="Assets\Photon\Simple\Core\SyncObject.cs" />
      <Compile Include="Assets\Photon\Simple\Components\Assistants\TriggerAssists.cs" />
      <Compile Include="Assets\Photon\Simple\Components\SyncOculus\Assistants\OculusAssist.cs" />
+     <Compile Include="Assets\Scripts\CaterpillarControl.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

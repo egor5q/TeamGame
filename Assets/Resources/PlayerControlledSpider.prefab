@@ -515,6 +515,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6362766477682547050, guid: 669105a6d5b238745af0826d7e4b48dd, type: 3}
+      propertyPath: middleFriction
+      value: 
+      objectReference: {fileID: 13400000, guid: 9d9e202ce79ad544c8a5231356695532, type: 2}
     - target: {fileID: 6362766477682547051, guid: 669105a6d5b238745af0826d7e4b48dd, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1246,21 +1250,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6362766477682547054, guid: 669105a6d5b238745af0826d7e4b48dd, type: 3}
   m_PrefabInstance: {fileID: 2386332106334932430}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1854080421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8741735427041137824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8b57cea3494a4a41a70c55c70fa0c5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  joint: {fileID: 8741735427736675313}
-  movementSpeed: 10
-  turningSpeed: 60
 --- !u!114 &1854080422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1306,6 +1295,21 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &4129035354267816574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8741735427041137824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511006732b1d7194f8e90ce80e487b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joint: {fileID: 8741735427736675313}
+  movementSpeed: 10
+  turningSpeed: 60
 --- !u!114 &7343773769068523100
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,600 +1,431 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1684711690580530, "dur":1351, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711690581888, "dur":101, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1684711690582031, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1684711690582050, "dur":208, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1684711690582286, "dur":731, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711690583017, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482365, "dur":119, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482484, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482494, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482497, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482502, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482504, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482510, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482512, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482518, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482520, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482526, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482528, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482534, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482544, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692482567, "dur":1851, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1684711690582675, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711690583046, "dur":5071, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711690588125, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684711690588127, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711690588167, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684711690588171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711690588812, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684711690591487, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1684711690591526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711690591534, "dur":236599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1684711690828177, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711690828221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711690828227, "dur":363497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691191760, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691191794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691191801, "dur":121412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691313244, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691313275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691313282, "dur":29401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691342714, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691342744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691342750, "dur":50761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691393542, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691393574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691393580, "dur":88049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691481660, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691481692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691481698, "dur":12930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691494658, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691494688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691494694, "dur":123808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691618535, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691618584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691618590, "dur":232222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691850843, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691850876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691850883, "dur":26933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691877849, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711691877885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711691877891, "dur":152488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692030413, "dur":133183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692163600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692163608, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692164671, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PacketDotNet.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692164709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692164715, "dur":87811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PacketDotNet.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692252560, "dur":4651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/InterestManagement.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1684711692257216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692257223, "dur":7763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/InterestManagement.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1684711692265019, "dur":36112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/InterestManagement.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692301136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692301143, "dur":8083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/InterestManagement.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692309398, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/EmoCompressUtilsASMDEF.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692310229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692310236, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/EmoCompressUtilsASMDEF.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684711692313035, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/ByteConverter.dll.mdb" }}
-,{ "pid":12345, "tid":1, "ts":1684711692313068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692313074, "dur":30194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/ByteConverter.dll.mdb" }}
-,{ "pid":12345, "tid":1, "ts":1684711692343301, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1684711692343337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692343370, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1684711692345702, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1684711692345738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692345744, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1684711692348024, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1684711692348069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692348074, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1684711692349970, "dur":4543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1684711692354518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692354524, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1684711692355424, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1684711692355460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692355464, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1684711692356243, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1684711692356283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692356288, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1684711692357167, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1684711692357198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684711692357203, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1684711692358177, "dur":124192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711690583123, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711690583124, "dur":5113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711690588238, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1684711690588283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711690590565, "dur":40188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1684711690630788, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1684711690630836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711690630843, "dur":257281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1684711690888168, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711690888208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711690888367, "dur":191746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691080146, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691080181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691080187, "dur":19189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691099411, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691099584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691099590, "dur":13868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691113491, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691113523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691113529, "dur":44249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691157812, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691157854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691157860, "dur":12822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691170715, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691170750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691170757, "dur":25402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691196193, "dur":40213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711691236410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691236418, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711691237299, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691237331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691237337, "dur":43319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691280685, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691280716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691280736, "dur":61499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691342284, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691342325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691342331, "dur":11872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691354242, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691354276, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691354285, "dur":38540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691392857, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691392891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691392897, "dur":26955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691419882, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691419915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691419920, "dur":19503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691439455, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691439489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691439495, "dur":89526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691529056, "dur":69183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691598243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691598251, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691599115, "dur":9362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711691608482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691608498, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711691609308, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691609338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691609345, "dur":179270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691788645, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691788675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691788681, "dur":72633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691861345, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711691861375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711691861397, "dur":196312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711692057741, "dur":28813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711692086559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711692086567, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711692087667, "dur":5612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711692093283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711692093308, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711692094054, "dur":118895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711692212957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711692212965, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711692214586, "dur":17439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/NavMeshComponents.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711692232030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711692232037, "dur":9925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/NavMeshComponents.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1684711692241998, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711692242032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684711692242041, "dur":201209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684711692443282, "dur":39069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690582784, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690583050, "dur":5121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690588171, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1684711690588238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690589564, "dur":30294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1684711690619890, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1684711690619922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690619928, "dur":64898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1684711690684861, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1684711690684901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690685172, "dur":26546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1684711690711752, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1684711690711786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690711793, "dur":18638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1684711690730467, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711690730507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690731236, "dur":120602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711690851875, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1684711690851908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711690851913, "dur":349161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1684711691201110, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691201147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691201153, "dur":62598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691263783, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691263813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691263820, "dur":87489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691351351, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691351383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691351389, "dur":38108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691389529, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691389560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691389567, "dur":14378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691403977, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691404089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691404095, "dur":20430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691424558, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691424590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691424596, "dur":49825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691474453, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691474499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691474509, "dur":48475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691523017, "dur":4488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711691527510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691527518, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711691533743, "dur":184333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691718080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691718088, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691719128, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691719185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691719192, "dur":159483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691878707, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711691878740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711691878746, "dur":208143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692086919, "dur":137374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692224298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692224306, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692225132, "dur":39114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/NavMeshComponents.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692264250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692264257, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/NavMeshComponents.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692265286, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalFloat.dll.mdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711692265316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692265321, "dur":14323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalFloat.dll.mdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711692279676, "dur":28456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalfFloatASMDEF.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692308136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692308144, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalfFloatASMDEF.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692309588, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/ByteConverter.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711692309619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692309625, "dur":9751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/ByteConverter.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711692319406, "dur":7684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/BitpackersASMDEF.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711692327095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692327103, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/BitpackersASMDEF.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1684711692327911, "dur":40094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/BitpackersASMDEF.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692368009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684711692368034, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/BitpackersASMDEF.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684711692368934, "dur":113429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690582817, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690583083, "dur":5080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690588164, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1684711690588227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690589479, "dur":14848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1684711690604358, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1684711690604390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690604678, "dur":13325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1684711690618050, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1684711690618089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690618140, "dur":66779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1684711690684974, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1684711690685017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690685276, "dur":37784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1684711690723097, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1684711690723129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690723135, "dur":32005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1684711690755175, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711690755212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690755217, "dur":132183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711690887437, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1684711690887473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711690887689, "dur":380702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1684711691268431, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691268467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691268474, "dur":27189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691295694, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691295726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691295732, "dur":27418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691323181, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691323213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691323220, "dur":14232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691337483, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691337513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691337519, "dur":15722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691353271, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691353301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691353308, "dur":16515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691369855, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691369889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691369896, "dur":24251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691394176, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691394211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691394217, "dur":12979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691407229, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691407262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691407268, "dur":27427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691434727, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691434757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691434763, "dur":30407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691465200, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691465236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691465243, "dur":41898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691507172, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691507206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691507212, "dur":33072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691540315, "dur":201363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691741683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691741690, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691742817, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691742849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691742871, "dur":166372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691909278, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711691909344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711691909357, "dur":103767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692013156, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/QuatCompress.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692013185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692013190, "dur":5299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/QuatCompress.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692018525, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/QuatCompress.dll.mdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692018559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692018565, "dur":8463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/QuatCompress.dll.mdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692027060, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/QuatCompress.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692027093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692027099, "dur":17566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/QuatCompress.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692044696, "dur":4170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692048870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692048878, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692049698, "dur":152658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692202360, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692202369, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692206538, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692206572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692206578, "dur":58441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692265055, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalFloat.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692265087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692265093, "dur":9761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalFloat.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692274887, "dur":12320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalfFloatASMDEF.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692287211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692287218, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalfFloatASMDEF.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692288071, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/FloatCrusher.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692288103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692288109, "dur":6884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/FloatCrusher.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692295023, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/FloatCrusher.dll.mdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692295055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692295061, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/FloatCrusher.dll.mdb" }}
-,{ "pid":12345, "tid":4, "ts":1684711692300185, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/FloatCrusher.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692300216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692300221, "dur":39547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/FloatCrusher.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692339799, "dur":97470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692437274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684711692437281, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684711692438539, "dur":43813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690583004, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690583162, "dur":5000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690588163, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1684711690588266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690590342, "dur":94536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1684711690684921, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1684711690684980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690685197, "dur":45606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1684711690730837, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690730874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690731037, "dur":148185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690879256, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars.exe" }}
-,{ "pid":12345, "tid":5, "ts":1684711690879290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690879295, "dur":33319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars.exe" }}
-,{ "pid":12345, "tid":5, "ts":1684711690912644, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690912681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690912714, "dur":47916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690961618, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690961745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690961753, "dur":28339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690991746, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711690991872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711690991880, "dur":36188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691028101, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691028132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691028139, "dur":30567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691058800, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691058841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691058848, "dur":120117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691178998, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691179035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691179042, "dur":38825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691217900, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691217938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691217965, "dur":48299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691266298, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691266330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691266337, "dur":46413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691312784, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691312817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691312824, "dur":22878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691335734, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691335770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691335776, "dur":50611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691386419, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691386451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691386478, "dur":16360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691402870, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691402903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691402909, "dur":15399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691418336, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691418366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691418371, "dur":41524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691459930, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691459962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691459968, "dur":21836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691481835, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691481867, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691481885, "dur":34771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691516691, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691516723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691516729, "dur":18465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691535225, "dur":10890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711691546120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691546127, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711691547168, "dur":5024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711691552196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691552203, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711691552971, "dur":73320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691626295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691626303, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691627176, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691627208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691627213, "dur":47203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691674447, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691674481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691674487, "dur":75970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691750490, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691750528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691750535, "dur":59257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691809827, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691809862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691809869, "dur":26458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691836359, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691836393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691836400, "dur":88598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691925030, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711691925061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711691925067, "dur":103575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692028673, "dur":5982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711692034678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711692034686, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711692035570, "dur":4308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711692039882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711692039890, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711692040756, "dur":138680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692179440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711692179448, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692180370, "dur":4250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/OnwershipTestsASMDEF.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711692184624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711692184631, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/OnwershipTestsASMDEF.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1684711692185518, "dur":39602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/OnwershipTestsASMDEF.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692225123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711692225130, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/OnwershipTestsASMDEF.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692230859, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692230891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684711692230898, "dur":251410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684711692482338, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1684711692482340, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690582893, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690583125, "dur":5036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690588162, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1684711690588259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690589836, "dur":36435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1684711690626306, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1684711690626344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690626350, "dur":58471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1684711690684860, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1684711690684899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690685575, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1684711690687960, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1684711690687993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690688058, "dur":266404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1684711690954496, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711690954539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690954545, "dur":13006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711690967582, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711690967618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690967624, "dur":31770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711690999426, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711690999461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711690999467, "dur":29617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691029117, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691029149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691029155, "dur":26240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691055500, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691055537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691055544, "dur":17061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691072639, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691072676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691072682, "dur":17960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691090679, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691090738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691090745, "dur":15576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691106353, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691106385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691106391, "dur":14617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691121039, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691121076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691121083, "dur":18331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691139449, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691139485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691139492, "dur":59984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691199510, "dur":130386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691329900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691329907, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691331710, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691331745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691331751, "dur":13491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691345279, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691345313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691345319, "dur":37082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691382433, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691382468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691382474, "dur":35342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691417849, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691417882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691417888, "dur":47947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691465865, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691465900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691465905, "dur":15059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691480997, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691481030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691481036, "dur":48747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691529814, "dur":11444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711691541261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691541268, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711691542226, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691542257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691542277, "dur":66481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691608792, "dur":280188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691888984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691888991, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691891725, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691891758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691891764, "dur":34076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691925873, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711691925904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711691925909, "dur":86742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692012686, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/SharpPcap.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692012725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692012733, "dur":117389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/SharpPcap.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692130154, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Photon3Unity3D.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711692130186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692130192, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Photon3Unity3D.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711692135602, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692135632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692135637, "dur":131406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692267079, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalFloat.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692267131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692267147, "dur":35486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/HalFloat.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692302679, "dur":12314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/EmoCompressUtilsASMDEF.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711692314997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692315004, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/EmoCompressUtilsASMDEF.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711692315813, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/ByteConverter.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692315845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692315850, "dur":21456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/ByteConverter.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684711692337338, "dur":6140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711692343480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692343486, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1684711692344786, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692344819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692344824, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692346650, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692346680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692346685, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692349296, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1684711692349327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692349332, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1684711692350445, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692350482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692350486, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692352790, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1684711692352821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692352826, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1684711692354608, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level1.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692354640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692354645, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level1.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692355618, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692355647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692355651, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684711692356588, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1684711692356623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692356628, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1684711692357429, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1684711692357524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684711692357528, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Veganwars_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1684711692358271, "dur":124097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684711692486115, "dur":2083, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1684771578429890, "dur":1220, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578431117, "dur":171, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684771578431326, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684771578431351, "dur":219, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684771578431589, "dur":694, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578432284, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736128, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736295, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736305, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736307, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736313, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736315, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736321, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736323, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736329, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736331, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736338, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736340, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736346, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736358, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578736395, "dur":1632, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684771578432352, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578432353, "dur":5068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437422, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437473, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437511, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437543, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437575, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437608, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437640, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437672, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437701, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437758, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437789, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578437988, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438033, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438070, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438119, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438160, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438194, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438232, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438270, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438299, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438335, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438366, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438397, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438426, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438454, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438481, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438511, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438544, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438574, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438603, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438631, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438658, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438685, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438711, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438737, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438763, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438831, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438874, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438908, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438940, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438968, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578438998, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439029, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439059, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439092, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439119, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439144, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439170, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439199, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439228, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439256, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439284, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439312, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439342, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439529, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439567, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439598, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439629, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439809, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439842, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439871, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439899, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578439941, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440096, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440128, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440160, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440191, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440220, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440248, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440275, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440304, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440333, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440362, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440389, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578440419, "dur":34131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474551, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474608, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474641, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474671, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474706, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474737, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474764, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474792, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474818, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474846, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474872, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474900, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474929, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474956, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578474984, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475010, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475034, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475060, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475086, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475113, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475138, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475164, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475193, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475220, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475247, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475273, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475300, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475325, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475350, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475375, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475400, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475425, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475450, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475476, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475500, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475526, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475551, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475577, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/SharpPcap.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475602, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475627, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/QuatCompress.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475652, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475675, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/QuatCompress.dll.mdb" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475785, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475822, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/QuatCompress.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475852, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578475879, "dur":4187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1684771578480066, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578480114, "dur":107162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587277, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587334, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587366, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587395, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587421, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587448, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PacketDotNet.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587475, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578587501, "dur":4606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/OnwershipTestsASMDEF.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1684771578592108, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578592165, "dur":27583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/OnwershipTestsASMDEF.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578619748, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578619809, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578619851, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578619880, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578619909, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578619936, "dur":4172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/InterestManagement.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1684771578624109, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578624172, "dur":22291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/InterestManagement.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684771578646463, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578646523, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1684771578646561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578646606, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1684771578647707, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578647740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578647748, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578648577, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684771578648609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578648615, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684771578649343, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578649377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578649383, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578650797, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1684771578650889, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578650920, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1684771578651556, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578651598, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578651633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578651640, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578654600, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578654634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578654640, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684771578655558, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1684771578655595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578655601, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1684771578656509, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684771578656540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578656545, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684771578658536, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684771578658630, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684771578658659, "dur":77456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578432095, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578432329, "dur":5090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437420, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437471, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437514, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437560, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437590, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437625, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437655, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437687, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437736, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437777, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437809, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437854, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437885, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437919, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437950, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578437979, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438006, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438038, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438086, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438125, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438158, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438192, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578438222, "dur":7479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1684771578445702, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578445755, "dur":87887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578533643, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578533687, "dur":5745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1684771578539433, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578539491, "dur":99133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638624, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638687, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/FloatCrusher.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638723, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638751, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/FloatCrusher.dll.mdb" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638777, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638803, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/FloatCrusher.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638829, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578638853, "dur":5759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/EmoCompressUtilsASMDEF.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1684771578644613, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578644670, "dur":74116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/BitpackersASMDEF.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684771578718786, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684771578718852, "dur":17286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578432713, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578432713, "dur":4672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437385, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437456, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437499, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437534, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437568, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437600, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437633, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437668, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437698, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437773, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437810, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437861, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437902, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437936, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437964, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578437994, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438025, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438055, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438090, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438127, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438162, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438195, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578438230, "dur":106624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578544855, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578544913, "dur":3942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578548855, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578548906, "dur":51935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578600842, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578600898, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578600933, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578600960, "dur":4976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/NavMeshComponents.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578605937, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578605991, "dur":28502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634494, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634553, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/HalFloat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634588, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634617, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/HalFloat.dll.mdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634645, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634671, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/HalFloat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634697, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578634723, "dur":4781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/HalfFloatASMDEF.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578639504, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578639558, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/EmoCompressUtilsASMDEF.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640221, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640272, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/ByteConverter.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640311, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640339, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/ByteConverter.dll.mdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640365, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640391, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/ByteConverter.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640417, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578640444, "dur":4419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/BitpackersASMDEF.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578644864, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578644907, "dur":5701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1684771578650609, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578650661, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684771578650699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578650716, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684771578653858, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684771578653909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578653916, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684771578655623, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684771578655658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578655663, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684771578656463, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1684771578656496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578656518, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1684771578657562, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1684771578657595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684771578657601, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1684771578658758, "dur":77356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578432200, "dur":161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578432361, "dur":5059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437421, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437487, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437529, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437565, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437594, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437626, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437657, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437693, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437740, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437786, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437818, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437860, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437900, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437930, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437958, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578437986, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438020, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438052, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438084, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438116, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438145, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438173, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438203, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438236, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438276, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438307, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438586, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438621, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438650, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578438878, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439239, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439271, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439301, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439334, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439439, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439483, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439531, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439566, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439595, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439629, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439662, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439689, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439716, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439758, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439793, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439821, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439850, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578439991, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440022, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440056, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440088, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440120, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440149, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440179, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440206, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440236, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440264, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440291, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440317, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440343, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578440376, "dur":6018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1684771578446395, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578446437, "dur":82654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578529092, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578529153, "dur":4363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1684771578533517, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578533577, "dur":111340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578644917, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578644958, "dur":91102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684771578736060, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684771578736102, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1684771578736103, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578432314, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578432314, "dur":5045, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578437367, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1684771578437376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578437837, "dur":242, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1684771578438082, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1684771578438126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578438407, "dur":8116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1684771578446524, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684771578446582, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578446617, "dur":4591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1684771578451208, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578451263, "dur":57073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684771578508336, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578508398, "dur":7771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1684771578516169, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578516225, "dur":142919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684771578659145, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684771578659184, "dur":76969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578432486, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578432487, "dur":4935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437423, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437494, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437533, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437572, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437603, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437640, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437671, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437703, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578437737, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684771578438190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578438385, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684771578440491, "dur":5210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1684771578445702, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578445760, "dur":8406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1684771578454166, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578454225, "dur":5127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1684771578459353, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578459408, "dur":176430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684771578635838, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578635898, "dur":25371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Egor/Desktop/ /Caterpillar game/Versions/v0.11/Veganwars_Data/Managed/HalfFloatASMDEF.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684771578661270, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684771578661326, "dur":74788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684771578739285, "dur":1362, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

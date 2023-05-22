@@ -7,6 +7,9 @@ public class FootFriction : MonoBehaviour
     [SerializeField] private PhysicMaterial defaultFriction;
     [SerializeField] private PhysicMaterial zeroFriction;
 
+    [SerializeField] private PhysicMaterial middleFriction;
+
+
     [SerializeField] private Collider fr_foot;  //firtst right
     [SerializeField] private Collider fl_foot;  //firtst left
 
@@ -34,5 +37,15 @@ public class FootFriction : MonoBehaviour
         fl_foot.material = zeroFriction;
         sr_foot.material = zeroFriction;
         tl_foot.material = zeroFriction;
+    }
+
+    public void SetIdleFriction(){
+        fr_foot.material = middleFriction;
+        tr_foot.material = middleFriction;
+        sl_foot.material = middleFriction;
+
+        fl_foot.material = middleFriction;
+        sr_foot.material = middleFriction;
+        tl_foot.material = middleFriction;
     }
 }

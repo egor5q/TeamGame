@@ -2699,6 +2699,8 @@ MonoBehaviour:
   joint: {fileID: 549603991}
   movementSpeed: 10
   turningSpeed: 60
+  rotationControl: {fileID: 0}
+  secondSegment: {fileID: 0}
 --- !u!114 &1854080422
 MonoBehaviour:
   m_ObjectHideFlags: 0
