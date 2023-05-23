@@ -628,6 +628,8 @@
 "Assets/Scripts/IgnoreCollision.cs"
 "Assets/Scripts/LobbyManager.cs"
 "Assets/Scripts/RotateToTarget.cs"
+"Assets/SharedVariables.cs"
+"Assets/SharedVariablesScript.cs"
 "Assets/TargetedBySpider.cs"
 -langversion:9.0
 

@@ -54,14 +54,14 @@ AnimationClip:
   - time: 0
     functionName: SetIdleFriction
     data: 
-    objectReferenceParameter: {fileID: 8741735427041137824, guid: 9251cf0b0837d564eaa84923acd6cc4f, type: 3}
+    objectReferenceParameter: {fileID: 8741735427041137824, guid: 17057721cd55db744bb45af4edb5abb8, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.25
     functionName: SetIdleFriction
     data: 
-    objectReferenceParameter: {fileID: 8741735427041137824, guid: 9251cf0b0837d564eaa84923acd6cc4f, type: 3}
+    objectReferenceParameter: {fileID: 8741735427041137824, guid: 17057721cd55db744bb45af4edb5abb8, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

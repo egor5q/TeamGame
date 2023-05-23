@@ -16,6 +16,7 @@ public class CaterpillarControl_fullphysics : MonoBehaviour
     public GameObject secondSegment;
 
     private PhotonView photonView;
+    public string playerid;
     void Start()
     {
         photonView = GetComponent<PhotonView>();

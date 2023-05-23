@@ -10,6 +10,8 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     private bool roomCreated = false;
     void Start()
     {
+        //SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        //SceneManager.SetActiveScene(SceneManager.GetSceneByName("Menu"));
         PhotonNetwork.NickName = "Player "+Random.Range(1, 1000);
         Log("Player's nickname set to "+PhotonNetwork.NickName);
         PhotonNetwork.GameVersion = "1";

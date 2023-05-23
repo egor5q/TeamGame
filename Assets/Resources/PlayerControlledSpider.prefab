@@ -1310,6 +1310,7 @@ MonoBehaviour:
   joint: {fileID: 8741735427736675313}
   movementSpeed: 10
   turningSpeed: 60
+  playerid: 
 --- !u!114 &7343773769068523100
 MonoBehaviour:
   m_ObjectHideFlags: 0

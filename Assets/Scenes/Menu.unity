@@ -2701,6 +2701,7 @@ MonoBehaviour:
   turningSpeed: 60
   rotationControl: {fileID: 0}
   secondSegment: {fileID: 0}
+  playerid: 
 --- !u!114 &1854080422
 MonoBehaviour:
   m_ObjectHideFlags: 0
